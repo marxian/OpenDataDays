@@ -1,0 +1,189 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/* BASIC TYPOGRAPHY =============================================================================== */
+
+body {
+background:#fff;
+font-family:georgia, serif;
+color:#222;
+font-size:87.5%;
+padding:28px;
+}
+
+pre {
+font-family:inherit;
+}
+
+/* PARAGRAPHS -------------------------- */
+
+p {
+font-size:1em;
+text-align:justify;
+word-spacing:0.05em;
+line-height:1.5;
+margin:0;
+}
+
+p + p {
+text-indent:1em;
+}
+
+p a:link {color:#222;}
+p a:visited{color:#555;}
+p a:hover {text-decoration:none; border-bottom:1px dashed;} 
+a:focus, a:active {border:0; outline:1px dashed;} 
+
+/* INLINE (WITHIN PARAGRAPH) STYLES -------------------------- */
+
+strong { 
+font-size:1.2em;
+line-height:1;
+}
+
+/* HEADINGS --------------------------- */
+
+h1, h2, h3, h4, h5 {
+line-height:1;
+margin:0 0 14px;
+}
+
+h1 {font-size:2.5em;}
+h2 {font-size:2em;}
+h3 {font-size:1.5em;}
+
+/* STRINGS OF CAPITALS ---------------------- */
+
+acronym {
+letter-spacing:0.25em;
+font-weight:bold;
+cursor: help;
+}
+
+/* SHORT QUOTATIONS AND BLOCKQUOTES --------- */
+
+blockquote {
+margin:0;
+padding:1.5em;
+}
+
+blockquote p {
+font-style:italic;
+}
+
+blockquote.with-outline {
+outline:5px solid;
+padding:1.5em;
+margin:1.5em;
+}
+
+q {
+font-style:italic;
+font-size:1.2em;
+line-height:1;
+}
+
+small {font-size:0.8em; 
+font-variant:small-caps; 
+letter-spacing:1px;
+}

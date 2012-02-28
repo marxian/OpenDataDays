@@ -1,0 +1,425 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+margin:0;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/* BASIC TYPOGRAPHY =============================================================================== */
+
+body {
+background:#fff;
+font-family:'trebuchet ms', trebuchet, sans-serif;
+color:#222;
+font-size:100%;
+padding:0 32px;
+}
+
+pre {
+font-family:inherit;
+}
+
+/* PARAGRAPHS -------------------------- */
+
+p {
+font-size:1em;
+text-align:justify;
+word-spacing:0.05em;
+line-height:1.5;
+margin:0 0 1em;
+}
+
+ul {
+margin:0 0 1em;
+}
+
+a:hover, a:active, a:focus {
+text-decoration:underline;
+}
+
+/* INLINE (WITHIN PARAGRAPH) STYLES -------------------------- */
+
+strong { 
+font-size:1.2em;
+line-height:1;
+}
+
+/* HEADINGS --------------------------- */
+
+h1, h2, h3, h4, h5 {
+line-height:1;
+margin:0 0 14px;
+font-weight:normal;
+}
+
+h1 {font-size:3em;}
+h2 {font-size:1.5em;}
+h3 {font-size:1.3em;}
+article h1 {font-size:2em;}
+header h2, header h3 {margin:0;}
+div > aside h2 { /* hides only page-level asides (asides not belonging to sections) */
+height:0;
+margin:0;
+overflow:hidden;
+}
+
+/* STRINGS OF CAPITALS ---------------------- */
+
+abbr {
+letter-spacing:0.25em;
+font-weight:bold;
+cursor: help;
+}
+
+/* SHORT QUOTATIONS AND BLOCKQUOTES --------- */
+
+blockquote {
+margin:0;
+padding:0 0 1em;
+}
+
+blockquote p {
+font-style:italic;
+font-size:1.2em;
+margin:0;
+}
+
+cite {
+display:block;
+padding:0 4em 0;
+font-weight:bold;
+text-align:right;
+}
+
+q {
+font-style:italic;
+font-size:1.2em;
+line-height:1;
+}
+
+small {
+font-size:0.8em; 
+font-variant:small-caps; 
+letter-spacing:1px;
+display:block;
+}
+
+/* LAYOUT =============================================================================== */
+
+div {
+width:770px;
+padding:20px 0 0;
+margin:0 auto;
+overflow:hidden;
+background:#009966 url(../images/bricks.jpg);
+}
+
+div div {
+margin:0;
+padding:20px;
+border:0;
+width:526px;
+margin:0 auto;
+background:#ffffcc;
+}
+
+div + div {
+width:150px;
+float:right;
+overflow:hidden;
+}
+
+div > header nav {
+background:#009966;
+height:35px;
+}
+
+/* BASIC NAVIGATION --------- */
+
+section nav li a {
+display:block;
+padding:0 0 8px;
+margin:0 0 8px;
+border-bottom:1px dashed #222;
+}
+
+h3 + ul a {
+display:block;
+padding:0 0 5px;
+margin:0 0 5px;
+border-bottom:1px solid;
+}
+
+nav h3 + ul li:last-child a {
+border:0;
+}
+
+/* DOCUMENT HEADER TITLES --------- */
+
+div > header {
+text-align:center;
+
+color:#fff;
+}
+
+hgroup h1 {
+font-size:4em;
+line-height:0.8;
+margin:0;
+}
+
+hgroup h2 {
+margin:0;
+text-indent:250px;
+margin:20px 0;
+}
+
+/* DOCUMENT HEADER NAVIGATION --------- */
+
+nav h2 {
+height:0;
+overflow:hidden;
+}
+
+header nav ul {
+width:566px;
+margin:0 auto;
+}
+
+header nav li {
+display:inline;
+text-align:center;
+float:left;
+width:20%;
+padding:5px 0;
+background:#ffffcc;
+font-size:14px;
+}
+
+div > header nav li a:link {
+display:inline;
+border:0;
+background:#99ff99;
+display:block;
+padding:5px 0;
+margin:0 5px;
+}
+
+header nav li a {
+text-decoration:none;
+font-size:1.2em;
+}
+
+header nav ul + ul {
+height:41px;
+background:#ffffcc;
+}
+
+header nav ul + ul li {
+width:33.33%;
+}
+
+header nav ul + ul li:last-child {
+float:right;
+}
+
+header nav ul + ul li a:link {
+background:none;
+border:2px solid #009966;
+}
+
+/* SECOND CONTENT GROUP SECTIONS --------- */
+
+div + div section {
+border:1px solid;
+padding:16px;
+}
+
+div + div section p { /* for the second div area inside the main div wrapper which is styled as a sidebar in this implementation */
+text-align:left;
+font-size:0.8em;
+}
+
+/* THIRD CONTENT GROUP SECTIONS --------- */
+
+div + div + div {
+width:100%;
+float:none;
+clear:both;
+border:0;
+}
+
+div + div + div section {
+border:0;
+float:left;
+padding:0;
+width:33%;
+}
+
+div + div + div section a {
+display:block;
+border:1px solid #000;
+padding:16px;
+text-decoration:none;
+}
+
+div + div + div section:first-child a {
+margin:0 20px 0 0;
+}
+
+div + div + div section:last-child a {
+margin:0 0 0 20px;
+}
+
+/* ARTICLES --------- */
+
+article {
+margin:0 0 32px 0;
+}
+
+article header {
+
+}
+
+article header h1 {
+color:#009966;
+font-weight:bold;
+font-size:1.5em;
+}
+
+article header img {
+float:left;
+width:35px;
+margin:0 5px 0 0;
+}
+
+article header time {
+font-style:italic;
+font-weight:bold;
+}
+
+article div {
+padding:0 0 16px 0;
+}
+
+article footer {
+text-align:left;
+padding:5px 0;
+}
+
+article div p:last-child {
+margin:0;
+}
+
+/* DOCUMENT FOOTER --------- */
+
+footer {
+line-height:normal;
+padding:14px;
+clear:both;
+text-align:center;
+background:#009966;
+}
+
+footer li {
+display:inline;
+padding:0 10px;
+font-size:1em;
+}

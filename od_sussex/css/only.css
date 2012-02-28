@@ -1,0 +1,482 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+margin:0;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/* BASIC TYPOGRAPHY =============================================================================== */
+
+body {
+background:#fff;
+font-family:verdana, sans-serif;
+color:#222;
+font-size:100%;
+padding:10px;
+}
+
+pre {
+font-family:inherit;
+}
+
+/* PARAGRAPHS -------------------------- */
+
+p {
+font-size:0.8em;
+text-align:justify;
+word-spacing:0.05em;
+line-height:1.5;
+margin:0 0 1em;
+}
+
+ul {
+margin:0 0 1em;
+}
+
+a:hover, a:active, a:focus {
+text-decoration:underline;
+}
+
+/* INLINE (WITHIN PARAGRAPH) STYLES -------------------------- */
+
+strong { 
+font-size:1.2em;
+line-height:1;
+}
+
+/* HEADINGS --------------------------- */
+
+h1, h2, h3, h4, h5 {
+line-height:1;
+margin:0 0 14px;
+font-weight:normal;
+color:#000;
+font-family:'trebuchet ms', trebuchet, sans-serif;
+}
+
+h1 {font-size:3em;}
+h2 {font-size:1.5em;}
+h3 {font-size:1.3em;}
+article h1 {font-size:2em;}
+header h2, header h3 {margin:0;}
+div > aside h2 { /* hides only page-level asides (asides not belonging to sections) */
+height:0;
+margin:0;
+overflow:hidden;
+}
+
+/* STRINGS OF CAPITALS ---------------------- */
+
+abbr {
+letter-spacing:0.25em;
+font-weight:bold;
+cursor: help;
+}
+
+/* SHORT QUOTATIONS AND BLOCKQUOTES --------- */
+
+blockquote {
+margin:0;
+padding:0 0 1em;
+}
+
+blockquote p {
+font-style:italic;
+font-size:1.2em;
+margin:0;
+}
+
+cite {
+display:block;
+padding:0 4em 0;
+font-weight:bold;
+text-align:right;
+}
+
+q {
+font-style:italic;
+font-size:1.2em;
+line-height:1;
+}
+
+small {
+font-size:0.8em; 
+font-variant:small-caps; 
+letter-spacing:1px;
+display:block;
+}
+
+/* LAYOUT =============================================================================== */
+
+body > div {
+width:770px;
+padding:20px 0 0;
+margin:0 auto;
+overflow:hidden;
+background:#fff;
+border:1px solid #555;
+border-radius:10px;
+-moz-box-shadow:0px 0px 3px #999;
+}
+
+div div {
+margin:0;
+padding:20px;
+border:0;
+width:526px;
+float:right;
+}
+
+div + div {
+width:150px;
+float:right;
+overflow:hidden;
+}
+
+div > header nav {
+background:#009966;
+height:35px;
+}
+
+/* BASIC NAVIGATION --------- */
+
+section nav li a {
+display:block;
+padding:0 0 8px;
+margin:0 0 8px;
+border-bottom:1px dashed #222;
+}
+
+h3 + ul a {
+display:block;
+padding:0 0 5px;
+margin:0 0 5px;
+border-bottom:1px solid;
+}
+
+nav h3 + ul li:last-child a {
+border:0;
+}
+
+/* DOCUMENT HEADER TITLES --------- */
+
+div > header {
+text-align:center;
+
+color:#fff;
+}
+
+hgroup {
+background:url(../images/header.jpg) no-repeat center center;
+height:185px;
+margin:0 0 10px;
+}
+
+hgroup h1 {
+font-size:2.5em;
+line-height:0.8;
+margin:0;
+font-weight:bold;
+padding:60px 0 0;
+}
+
+hgroup h2 {
+margin:0;
+font-size:14px;
+margin:5px 0;
+color:blue;
+}
+
+nav {
+width:200px;
+float:left;
+background:#f9f9f9;
+}
+
+nav h2 {
+font-size:14px;
+font-weight:bold;
+padding:10px;
+margin:0;
+}
+
+nav ul {
+padding:0 10px 10px;
+}
+
+nav li {
+font-size:14px;
+padding:5px 0;
+}
+
+nav li a:link {
+display:inline;
+border:0;
+padding:5px 0;
+margin:0 5px;
+text-decoration:none;
+font-size:14px;
+color:#0066cc
+}
+
+nav li a:hover, nav li a:active, nav li a:focus {
+text-decoration:underline;
+}
+
+nav li:before {
+content:'\00BB  ';
+color:#999;
+}
+
+header nav li a {
+text-decoration:none;
+font-size:1.2em;
+}
+
+header nav ul + ul {
+height:41px;
+background:#ffffcc;
+}
+
+header nav ul + ul li {
+width:33.33%;
+}
+
+header nav ul + ul li:last-child {
+float:right;
+}
+
+header nav ul + ul li a:link {
+background:none;
+border:2px solid #009966;
+}
+
+/* SECOND CONTENT GROUP SECTIONS --------- */
+
+div + div section {
+border:1px solid;
+padding:16px;
+}
+
+div + div section p { /* for the second div area inside the main div wrapper which is styled as a sidebar in this implementation */
+text-align:left;
+font-size:0.8em;
+}
+
+/* THIRD CONTENT GROUP SECTIONS --------- */
+
+div + div + div {
+width:100%;
+float:none;
+clear:both;
+border:0;
+}
+
+div + div + div section {
+border:0;
+float:left;
+padding:0;
+width:33%;
+}
+
+div + div + div section a {
+display:block;
+border:1px solid #000;
+padding:16px;
+text-decoration:none;
+}
+
+div + div + div section:first-child a {
+margin:0 20px 0 0;
+}
+
+div + div + div section:last-child a {
+margin:0 0 0 20px;
+}
+
+/* ARTICLES --------- */
+
+article {
+margin:0 0 32px 0;
+}
+
+article header {
+
+}
+
+article header h1 {
+font-weight:bold;
+font-size:1.2em;
+}
+
+header h1 a:link {
+text-decoration:none;
+}
+
+article header img {
+float:left;
+width:35px;
+margin:0 5px 0 0;
+}
+
+article header time {
+font-style:italic;
+font-weight:bold;
+}
+
+article div {
+padding:0 0 16px 0;
+}
+
+article footer {
+text-align:left;
+padding:5px 0;
+}
+
+article div p:last-child {
+margin:0;
+}
+
+/* DOCUMENT FOOTER --------- */
+
+footer {
+line-height:normal;
+padding:14px;
+clear:both;
+text-align:center;
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlNGU0ZTQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(228,228,228,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0)), color-stop(100%,rgba(228,228,228,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(228,228,228,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(228,228,228,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(228,228,228,1) 100%); /* IE10+ */
+background: linear-gradient(top, rgba(255,255,255,0) 0%,rgba(228,228,228,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#e4e4e4',GradientType=0 ); /* IE6-8 */
+font-size:0.8em;
+}
+
+footer p {
+text-align:center;
+}
+
+footer p a:link {
+text-decoration:none;
+color:#0066cc;
+}
+
+footer p a:hover, footer p a:active, footer p a:focus {
+text-decoration:underline;
+}
+
+footer p strong {
+color:blue;
+font-style:italic;
+}
+
+footer ul {
+margin:0;
+}
+
+footer li {
+display:inline;
+padding:0 10px;
+font-size:1em;
+}
