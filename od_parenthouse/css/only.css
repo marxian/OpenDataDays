@@ -423,3 +423,28 @@ display:inline;
 padding:0 10px;
 font-size:1em;
 }
+
+/* VISUALISATIONS =============================================================================== */
+
+div[role="main"] article > div {
+width:33% !important;
+overflow:hidden;
+float:left;
+clear:none;
+}
+
+div[role="main"] article > div h2 {
+font-size:16px;
+font-weight:bold;
+text-align:center;
+}
+
+div[role="main"] article > div:last-child {
+width:100% !important;
+float:none;
+clear:both;
+}
+
+div[role="main"] article > div > div {
+margin:0 auto;
+}
