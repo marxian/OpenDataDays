@@ -448,3 +448,24 @@ clear:both;
 div[role="main"] article > div > div {
 margin:0 auto;
 }
+
+a.button {
+display:block;
+clear:both;
+background:#009900;
+padding:10px;
+border-radius:5px;
+color:#fff;
+text-decoration:none;
+font-size:1.5em;
+font-weight:bold;
+border:3px solid #009900;
+box-shadow:inset 0 0 10px #00dd00;
+width:200px;
+text-align:center;
+margin:0 auto;
+}
+
+a.button:hover, a.button:active, a.button:focus {
+background:#00cc00;
+}
